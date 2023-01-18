@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+.nav {
+  width: 5%;
+  background-color: #f0f0f0;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+.nav li {
+  display: list-item;
+  padding: 5px 22px;
+  color: black;
+  margin: 0 3px;
+}
+li.item:not(:last-child) {
+  margin-bottom: 40px;
+}
+li.item:first-child {
+  padding-top: 15px;
+}
