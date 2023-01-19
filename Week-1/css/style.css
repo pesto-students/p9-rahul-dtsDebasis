@@ -4,25 +4,110 @@
 }
 a {
   text-decoration: none;
-  color: #1f1f1f;
 }
+
 .nav {
+  height: 100%;
   width: 5%;
   background-color: #f0f0f0;
+  position: fixed;
+  float: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1f1f1f;
 }
 
 .nav ul {
   list-style-type: none;
 }
+
 .nav li {
   display: list-item;
   padding: 5px 22px;
   color: black;
   margin: 0 3px;
 }
+
 li.item:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
+
 li.item:first-child {
   padding-top: 15px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 127px;
+  background-color: #43689b;
+}
+
+.content .display{
+  padding-top: 1%;
+  padding-left: 6%;
+  padding-bottom: 1%;
+  background-color: #454545;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  float: left;
+}
+
+.display .logo {
+  float: left;
+}
+.display img {
+  height: 150px;
+  width: 150px;
+}
+
+.display .summary {
+  float: left;
+  padding-left: 2%;
+  color: white;
+}
+
+.display .player {
+  margin-top: 8%;
+  width: 100%;
+}
+.songs {
+  padding-top: 14%;
+  padding-left: 6%;
+}
+
+.mb-2 {
+  margin-bottom: 2%;
+}
+
+.ml-2 {
+  margin-left: 2%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.play-btn {
+  padding: 3px;
+  border-color: black;
+  background: white;
+  color: blue;
+  border-width: 1px;
+  float: right;
 }
