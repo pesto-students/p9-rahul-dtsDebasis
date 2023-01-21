@@ -36,6 +36,9 @@ Provides security and privacy features such as browser encryption and blocking t
 
 ## How does the browser fetch the desired result ?
 
+![App Screenshot](https://i.ibb.co/ydBTF36/How-The-Web-Works.webp)
+
+
 #### The browser checks the cache for a DNS record
 
 When a user enters a URL in the browser, the browser first checks its local cache to see if it has a recent DNS (Domain Name System) record for the domain name in the URL. The DNS record contains the corresponding IP address of the server hosting the website. If a recent DNS record is found in the cache, the browser uses that IP address to send a request to the server. This can greatly reduce the time it takes to resolve a domain name to an IP address, as it eliminates the need to query a DNS server on the internet.
@@ -59,3 +62,4 @@ The browser starts by parsing the HTML code of a web page, and creating a Docume
 ## Summary
 
 That concludes the process of how a browser fetches and displays a web page to the user. The process starts with the user entering a URL in the browser, and the browser checking its cache for a DNS record to find the corresponding IP address of the server hosting the website. If the DNS record is not found in the cache, the browser initiates a DNS query to the ISP's DNS server to resolve the domain name to an IP address. Once the IP address is obtained, the browser establishes a TCP connection with the server and sends an HTTP request for the requested resource. The server then responds with the resource, which is typically an HTML page. The browser then uses the HTML parser, CSS parser, and JavaScript engine to create the Document Object Model (DOM), CSS Object Model (CSSOM) and Render Tree, and use them to layout and render the web page. The browser then displays the rendered web page to the user.
+
