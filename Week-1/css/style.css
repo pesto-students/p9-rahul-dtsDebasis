@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 a {
   text-decoration: none;
@@ -138,5 +139,5 @@ tr:nth-child(even) {
 ul.sound-menu li {
   display: inline;
   color: white;
-  padding-left: 20%;
+  padding-left: 12%;
 }
